@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "seed": 20260927,
+  "clip_model": "openai/clip-vit-base-patch32",
+  "clip_revision": null,
+  "concept_model": "gemini-3.5-flash-lite",
+  "concept_temperature": 0.1,
+  "noun_top_k": 5,
+  "kec_seed_groups": "N/300",
+  "kec_merge_threshold": 0.8,
+  "candidate_k": 50,
+  "min_native_region": 48,
+  "region_quality_threshold": 0.45,
+  "surface_lambda": 0.1,
+  "broad_clusters": 12,
+  "fine_clusters": 24,
+  "distance_reference_pairs": 20000,
+  "reference_pairs_per_stratum": 500
+}
